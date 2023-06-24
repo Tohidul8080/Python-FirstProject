@@ -1,0 +1,92 @@
+{% load static %}
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Blog</title>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">PythonProject</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/contract">Contract</a>
+              </li>
+             
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- blog in -->
+            <h1 class="text-center">Bangladesh</h1>
+      <img src="{% static 'images/im4.jpg' %}" alt="" width ="1000" height="500">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-6">
+            <h1>About of Bangladesh</h1>
+            <img src="{% static 'images/im1.jpg' %}" alt="" width ="500" height="400">
+            <p>Bangladesh forms the sovereign part of the historic and ethnolinguistic region of Bengal, which was divided during the Partition of India in 1947.[17] The country has a Bengali Muslim majority. Ancient Bengal was known as Gangaridai and was a bastion of pre-Islamic kingdoms. Muslim conquests after 1204 heralded the sultanate and Mughal periods, during which an independent 
+              Bengal Sultanate and a wealthy Mughal Bengal transformed the region
+               into an important centre of regional affairs,
+                trade, and diplomacy. After 1757, Bengal's administrative jurisdiction
+                 reached its greatest extent under the Bengal Presidency of the British Empire.In 1947, East Bengal became the most populous province in the Dominion of Pakistan. It was renamed as East Pakistan, with Dhaka becoming the country's legislative capital. The Bengali Language Movement in 1952; the East Bengali legislative election, 1954; the 1958 Pakistani coup d'état; the six point movement of 1966; and the 1970 Pakistani general election resulted in the rise of Bengali nationalism and pro-democracy movements in East Pakistan. The refusal of the Pakistani military junta to transfer power to the Awami League led by Sheikh Mujibur Rahman led to the Bangladesh Liberation War in 1971, in which the Mukti Bahini aided by India waged a successful armed revolution. The conflict saw the 1971 Bangladesh genocide and the massacre of pro-independence Bengali civilians, including intellectuals. The new state of Bangladesh became the first constitutionally secular state in South Asia in 1972.[18] Islam was declared the state religion in 1988.[19][20][21] In 2010, the Bangladesh Supreme Court reaffirmed secular principles in the constitution.[22]
+                  The creation of Eastern Bengal and Assam in 1905 set a precedent for the emergence of Bangladesh. In 1940, the first Prime Minister of Bengal A. K. Fazlul Huq supported the Lahore Resolution. Before the partition of Bengal, a Bengali sovereign state was first proposed by premier H. S. Suhrawardy. A referendum and the announcement of the Radcliffe Line established the present-day territorial boundary of Bangladesh.</p>
+          </div>
+          <div class="col-md-6">
+            <h1>History of Bangladesh</h1>
+            <img src="{% static 'images/im2.jpg' %}" alt="" width ="500" height="400">
+            <p>Bangladesh forms the sovereign part of the historic and ethnolinguistic region of Bengal, which was divided during the Partition of India in 1947.[17] The country has a Bengali Muslim majority. Ancient Bengal was known as Gangaridai and was a bastion of pre-Islamic kingdoms. Muslim conquests after 1204 heralded the sultanate and Mughal periods, during which an independent 
+              Bengal Sultanate and a wealthy Mughal Bengal transformed the region
+               into an important centre of regional affairs,
+                trade, and diplomacy. After 1757, Bengal's administrative jurisdiction
+                 reached its greatest extent under the Bengal Presidency of the British Empire.In 1947, East Bengal became the most populous province in the Dominion of Pakistan. It was renamed as East Pakistan, with Dhaka becoming the country's legislative capital. The Bengali Language Movement in 1952; the East Bengali legislative election, 1954; the 1958 Pakistani coup d'état; the six point movement of 1966; and the 1970 Pakistani general election resulted in the rise of Bengali nationalism and pro-democracy movements in East Pakistan. The refusal of the Pakistani military junta to transfer power to the Awami League led by Sheikh Mujibur Rahman led to the Bangladesh Liberation War in 1971, in which the Mukti Bahini aided by India waged a successful armed revolution. The conflict saw the 1971 Bangladesh genocide and the massacre of pro-independence Bengali civilians, including intellectuals. The new state of Bangladesh became the first constitutionally secular state in South Asia in 1972.[18] Islam was declared the state religion in 1988.[19][20][21] In 2010, the Bangladesh Supreme Court reaffirmed secular principles in the constitution.[22]
+                  The creation of Eastern Bengal and Assam in 1905 set a precedent for the emergence of Bangladesh. In 1940, the first Prime Minister of Bengal A. K. Fazlul Huq supported the Lahore Resolution. Before the partition of Bengal, a Bengali sovereign state was first proposed by premier H. S. Suhrawardy. A referendum and the announcement of the Radcliffe Line established the present-day territorial boundary of Bangladesh.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <br><br>
+      <footer class="bg-success" text-white position-relative>
+        <p class="text-center py-2 mr-0">Global Brand Pvt. Ltd. ©2023 - All Rights Reserved.</p>
+
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
